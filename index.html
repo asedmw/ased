@@ -1,0 +1,735 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for SEO and Responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Action for Social and Environmental Development - Empowering vulnerable communities for sustainable development through innovative programs and community engagement.">
+    <meta name="keywords" content="NGO, charity, social development, environmental development, poverty alleviation, community empowerment">
+    <meta name="author" content="Action for Social and Environmental Development">
+    <meta name="theme-color" content="#2d8659">
+    <meta name="color-scheme" content="light">
+    
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Action for Social and Environmental Development">
+    <meta property="og:description" content="Empowering vulnerable communities for sustainable development">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Performance Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>ASED - Action for Social and Environmental Development</title>
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%232d8659'/><path d='M50 20 L65 40 L50 50 L35 40 Z' fill='white'/><path d='M50 50 L65 60 L50 80 L35 60 Z' fill='%23ffa500'/></svg>">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#home" class="nav-logo" aria-label="ASED Home">
+                <span class="logo-icon" aria-hidden="true">🌱</span>
+                <span class="logo-text">ASED</span>
+            </a>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#programs" class="nav-link">Our Programs</a></li>
+                <li class="nav-item"><a href="#involved" class="nav-link">Get Involved</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <!-- Hamburger Menu -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HOME PAGE ===== -->
+    <main id="home" class="page">
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Hero section">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+                <div class="hero-gradient"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Empowering Communities for Sustainable Change</h1>
+                    <p class="hero-subtitle">Together, we build resilient and empowered communities where every person has the opportunity to thrive and contribute to sustainable development.</p>
+                    <div class="hero-buttons">
+                        <a href="#involved" class="btn btn-primary">Join Our Mission</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Animated Scroll Indicator -->
+            <div class="scroll-indicator" aria-hidden="true">
+                <div class="scroll-dot"></div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision Section -->
+        <section class="mission-vision" aria-label="Mission, vision, and values">
+            <div class="container">
+                <div class="mission-vision-grid">
+                    <!-- Mission Card -->
+                    <article class="mission-card card-animate">
+                        <div class="card-icon mission-icon" aria-hidden="true">🎯</div>
+                        <h2>Our Mission</h2>
+                        <p>Promoting improved livelihoods, expanding opportunities, and empowering vulnerable groups to be influential members in their communities, achieving sustainable development.</p>
+                    </article>
+                    
+                    <!-- Vision Card -->
+                    <article class="mission-card card-animate">
+                        <div class="card-icon vision-icon" aria-hidden="true">🌍</div>
+                        <h2>Our Vision</h2>
+                        <p>Empowered and resilient communities for sustainable development where every individual can achieve their full potential.</p>
+                    </article>
+                    
+                    <!-- Values Card -->
+                    <article class="mission-card card-animate">
+                        <div class="card-icon values-icon" aria-hidden="true">💚</div>
+                        <h2>Our Values</h2>
+                        <p>Integrity, compassion, sustainability, and community-driven solutions guide every action we take toward creating lasting positive change.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Statistics Section -->
+        <section class="impact-stats" aria-label="Impact statistics">
+            <div class="container">
+                <h2 class="section-title">Our Impact</h2>
+                <p class="section-subtitle">Measurable change in the lives of vulnerable communities</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card" data-target="50000">
+                        <div class="stat-number" id="stat1">0</div>
+                        <div class="stat-label">People Helped</div>
+                        <div class="stat-icon" aria-hidden="true">👥</div>
+                    </div>
+                    <div class="stat-card" data-target="150">
+                        <div class="stat-number" id="stat2">0</div>
+                        <div class="stat-label">Communities Reached</div>
+                        <div class="stat-icon" aria-hidden="true">🏘️</div>
+                    </div>
+                    <div class="stat-card" data-target="25">
+                        <div class="stat-number" id="stat3">0</div>
+                        <div class="stat-label">Active Programs</div>
+                        <div class="stat-icon" aria-hidden="true">📋</div>
+                    </div>
+                    <div class="stat-card" data-target="15">
+                        <div class="stat-number" id="stat4">0</div>
+                        <div class="stat-label">Years of Service</div>
+                        <div class="stat-icon" aria-hidden="true">⏰</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Programs Overview -->
+        <section class="programs-overview" aria-label="Key programs overview">
+            <div class="container">
+                <h2 class="section-title">Key Programs</h2>
+                <p class="section-subtitle">Transforming lives through targeted interventions</p>
+                
+                <div class="programs-grid">
+                    <!-- Program 1 -->
+                    <article class="program-card hover-lift">
+                        <div class="program-image" style="background: linear-gradient(135deg, #2d8659 0%, #1e5a3f 100%);">
+                            <span class="program-emoji" aria-hidden="true">🎓</span>
+                        </div>
+                        <h3>Education & Skills</h3>
+                        <p>Providing quality education and vocational training to empower youth and adults with skills for better employment opportunities.</p>
+                        <a href="#programs" class="read-more">Learn More →</a>
+                    </article>
+                    
+                    <!-- Program 2 -->
+                    <article class="program-card hover-lift">
+                        <div class="program-image" style="background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);">
+                            <span class="program-emoji" aria-hidden="true">👩‍⚕️</span>
+                        </div>
+                        <h3>Health & Wellness</h3>
+                        <p>Improving access to healthcare services and promoting health awareness in underserved communities.</p>
+                        <a href="#programs" class="read-more">Learn More →</a>
+                    </article>
+                    
+                    <!-- Program 3 -->
+                    <article class="program-card hover-lift">
+                        <div class="program-image" style="background: linear-gradient(135deg, #4caf50 0%, #2d8659 100%);">
+                            <span class="program-emoji" aria-hidden="true">🌱</span>
+                        </div>
+                        <h3>Environmental Action</h3>
+                        <p>Promoting sustainable practices and environmental conservation to protect our planet for future generations.</p>
+                        <a href="#programs" class="read-more">Learn More →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" aria-label="Client testimonials">
+            <div class="container">
+                <h2 class="section-title">Stories of Change</h2>
+                <p class="section-subtitle">Real voices, real impact</p>
+                
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <article class="testimonial-card fade-in-up">
+                        <div class="testimonial-content">
+                            <blockquote class="testimonial-text">"Through ASED's education program, my daughter was able to complete her studies and now works as a teacher. This organization changed our family's future."</blockquote>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">AM</div>
+                                <div class="author-info">
+                                    <p class="author-name">Amara Mensah</p>
+                                    <p class="author-role">Program Beneficiary</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Testimonial 2 -->
+                    <article class="testimonial-card fade-in-up">
+                        <div class="testimonial-content">
+                            <blockquote class="testimonial-text">"ASED's health initiatives have brought medical services to our remote village. The impact on our community's wellbeing is remarkable."</blockquote>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">JK</div>
+                                <div class="author-info">
+                                    <p class="author-name">James Kipchoge</p>
+                                    <p class="author-role">Community Leader</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Testimonial 3 -->
+                    <article class="testimonial-card fade-in-up">
+                        <div class="testimonial-content">
+                            <blockquote class="testimonial-text">"Partnering with ASED on environmental projects has transformed how our community views sustainability. We're now stewards of our land."</blockquote>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">EM</div>
+                                <div class="author-info">
+                                    <p class="author-name">Eka Mensah</p>
+                                    <p class="author-role">Environmental Coordinator</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section" aria-label="Call to action">
+            <div class="container">
+                <h2>Make a Difference Today</h2>
+                <p>Your support helps us reach more communities and create lasting change. Join us in our mission to empower vulnerable groups.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Donate Now</a>
+                    <a href="#involved" class="btn btn-secondary">Volunteer With Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== ABOUT PAGE ===== -->
+    <section id="about" class="page" aria-label="About us">
+        <div class="page-header">
+            <h1>About Us</h1>
+            <p>Understanding our journey and commitment</p>
+        </div>
+
+        <div class="container">
+            <!-- Organization Overview -->
+            <section class="about-section">
+                <div class="about-content">
+                    <h2>Who We Are</h2>
+                    <p>Action for Social and Environmental Development (ASED) is a non-governmental organization dedicated to alleviating poverty and promoting sustainable development. Since our establishment, we have been working tirelessly to empower vulnerable communities, particularly women and children, to become productive and influential members of society.</p>
+                    <p>Our work is grounded in the belief that every individual deserves the opportunity to live a dignified life with access to education, healthcare, and economic opportunities. We operate across multiple regions, implementing evidence-based programs that address root causes of poverty and environmental degradation.</p>
+                </div>
+            </section>
+
+            <!-- Our Approach -->
+            <section class="about-section">
+                <h2>Our Approach</h2>
+                <div class="approach-grid">
+                    <article class="approach-card">
+                        <h3>Community-Centered</h3>
+                        <p>We work with communities, not for them, ensuring local voices shape our programs and solutions.</p>
+                    </article>
+                    <article class="approach-card">
+                        <h3>Evidence-Based</h3>
+                        <p>Our programs are designed using research and data to ensure maximum impact and sustainability.</p>
+                    </article>
+                    <article class="approach-card">
+                        <h3>Holistic Development</h3>
+                        <p>We address interconnected challenges of poverty, education, health, and environmental sustainability.</p>
+                    </article>
+                    <article class="approach-card">
+                        <h3>Accountability</h3>
+                        <p>We maintain transparency in our operations and are accountable to our stakeholders and communities.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="about-section">
+                <h2>Our Team</h2>
+                <p>ASED is led by a dedicated team of professionals with expertise in development, social work, environmental conservation, and community engagement. Our team members are passionate about creating positive change and bringing diverse perspectives to our work.</p>
+                <div class="team-grid">
+                    <article class="team-member">
+                        <div class="team-avatar">DR</div>
+                        <h3>Dr. Ama Owusu</h3>
+                        <p>Executive Director</p>
+                    </article>
+                    <article class="team-member">
+                        <div class="team-avatar">KC</div>
+                        <h3>Kofi Mensah</h3>
+                        <p>Programs Director</p>
+                    </article>
+                    <article class="team-member">
+                        <div class="team-avatar">FN</div>
+                        <h3>Fatima Ndiaye</h3>
+                        <p>Finance Manager</p>
+                    </article>
+                    <article class="team-member">
+                        <div class="team-avatar">JM</div>
+                        <h3>James Mwangi</h3>
+                        <p>Monitoring & Evaluation Officer</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- ===== PROGRAMS PAGE ===== -->
+    <section id="programs" class="page" aria-label="Our programs">
+        <div class="page-header">
+            <h1>Our Programs</h1>
+            <p>Comprehensive initiatives addressing community needs</p>
+        </div>
+
+        <div class="container">
+            <!-- Program 1: Education -->
+            <section class="program-detail">
+                <div class="program-detail-header" style="background: linear-gradient(135deg, #2d8659 0%, #1e5a3f 100%);">
+                    <h2>Education & Skills Development</h2>
+                </div>
+                <div class="program-detail-content">
+                    <p>Our education program focuses on providing quality learning opportunities to children and youth in underserved communities. We establish learning centers, provide scholarships, and train teachers to deliver quality education.</p>
+                    <h3>Key Activities:</h3>
+                    <ul>
+                        <li>Establishing and supporting primary and secondary schools</li>
+                        <li>Vocational training in agriculture, tailoring, and digital skills</li>
+                        <li>Teacher training and professional development</li>
+                        <li>Scholarship programs for disadvantaged students</li>
+                        <li>Adult literacy programs for parents and community members</li>
+                    </ul>
+                    <h3>Impact:</h3>
+                    <p>Over 15,000 students have benefited from our education initiatives, with a 92% completion rate for participants in our programs.</p>
+                </div>
+            </section>
+
+            <!-- Program 2: Health -->
+            <section class="program-detail">
+                <div class="program-detail-header" style="background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);">
+                    <h2>Health & Wellness</h2>
+                </div>
+                <div class="program-detail-content">
+                    <p>We work to improve access to healthcare and promote health awareness in remote and underserved areas. Our health programs address maternal health, child nutrition, disease prevention, and mental health.</p>
+                    <h3>Key Activities:</h3>
+                    <ul>
+                        <li>Mobile health clinics and community health camps</li>
+                        <li>Maternal and child health programs</li>
+                        <li>Nutrition and food security initiatives</li>
+                        <li>Disease prevention and health education</li>
+                        <li>Mental health support and counseling services</li>
+                    </ul>
+                    <h3>Impact:</h3>
+                    <p>Our health programs have reached over 20,000 individuals, with significant improvements in maternal health outcomes and child nutrition.</p>
+                </div>
+            </section>
+
+            <!-- Program 3: Environmental -->
+            <section class="program-detail">
+                <div class="program-detail-header" style="background: linear-gradient(135deg, #4caf50 0%, #2d8659 100%);">
+                    <h2>Environmental Action & Sustainability</h2>
+                </div>
+                <div class="program-detail-content">
+                    <p>We promote environmental conservation and sustainable practices to protect ecosystems and improve livelihoods. Our programs focus on reforestation, sustainable agriculture, and renewable energy.</p>
+                    <h3>Key Activities:</h3>
+                    <ul>
+                        <li>Reforestation and tree-planting campaigns</li>
+                        <li>Sustainable agriculture training and support</li>
+                        <li>Water and sanitation projects</li>
+                        <li>Renewable energy promotion</li>
+                        <li>Environmental education and awareness</li>
+                    </ul>
+                    <h3>Impact:</h3>
+                    <p>We have planted over 100,000 trees, improved water access for 8,000 people, and trained 3,000 farmers in sustainable practices.</p>
+                </div>
+            </section>
+
+            <!-- Program 4: Women Empowerment -->
+            <section class="program-detail">
+                <div class="program-detail-header" style="background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);">
+                    <h2>Women Empowerment & Gender Equality</h2>
+                </div>
+                <div class="program-detail-content">
+                    <p>We work to promote gender equality and empower women through economic opportunities, education, and leadership development. Our programs support women's economic independence and participation in decision-making.</p>
+                    <h3>Key Activities:</h3>
+                    <ul>
+                        <li>Women's cooperative groups and savings schemes</li>
+                        <li>Microfinance and business training</li>
+                        <li>Leadership development programs</li>
+                        <li>Gender awareness campaigns</li>
+                        <li>Support for women-led enterprises</li>
+                    </ul>
+                    <h3>Impact:</h3>
+                    <p>Over 5,000 women have participated in our programs, with 70% successfully establishing or expanding their own businesses.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- ===== GET INVOLVED PAGE ===== -->
+    <section id="involved" class="page" aria-label="Get involved">
+        <div class="page-header">
+            <h1>Get Involved</h1>
+            <p>Multiple ways to support our mission</p>
+        </div>
+
+        <div class="container">
+            <div class="involvement-grid">
+                <!-- Donate -->
+                <article class="involvement-card hover-lift">
+                    <div class="involvement-icon" aria-hidden="true">💝</div>
+                    <h3>Donate</h3>
+                    <p>Your financial contribution directly supports our programs and helps us reach more communities. Every donation, no matter the size, makes a difference.</p>
+                    <a href="#contact" class="btn btn-small">Donate Now</a>
+                </article>
+
+                <!-- Volunteer -->
+                <article class="involvement-card hover-lift">
+                    <div class="involvement-icon" aria-hidden="true">🤝</div>
+                    <h3>Volunteer</h3>
+                    <p>Join our team on the ground. We welcome volunteers with various skills to support our programs and community initiatives.</p>
+                    <a href="#contact" class="btn btn-small">Volunteer</a>
+                </article>
+
+                <!-- Partner -->
+                <article class="involvement-card hover-lift">
+                    <div class="involvement-icon" aria-hidden="true">🔗</div>
+                    <h3>Partner With Us</h3>
+                    <p>Organizations, businesses, and institutions can partner with us to amplify our impact and create sustainable solutions.</p>
+                    <a href="#contact" class="btn btn-small">Get in Touch</a>
+                </article>
+
+                <!-- Advocate -->
+                <article class="involvement-card hover-lift">
+                    <div class="involvement-icon" aria-hidden="true">📢</div>
+                    <h3>Advocate</h3>
+                    <p>Help us raise awareness about the issues we address. Share our mission with your networks and support our advocacy efforts.</p>
+                    <a href="#contact" class="btn btn-small">Learn More</a>
+                </article>
+
+                <!-- Corporate Support -->
+                <article class="involvement-card hover-lift">
+                    <div class="involvement-icon" aria-hidden="true">🏢</div>
+                    <h3>Corporate Support</h3>
+                    <p>Businesses can support our mission through sponsorships, in-kind donations, and employee volunteer programs.</p>
+                    <a href="#contact" class="btn btn-small">Explore Options</a>
+                </article>
+
+                <!-- Fundraise -->
+                <article class="involvement-card hover-lift">
+                    <div class="involvement-icon" aria-hidden="true">🎯</div>
+                    <h3>Fundraise</h3>
+                    <p>Organize fundraising events or campaigns in your community to support ASED's work. We provide resources and support.</p>
+                    <a href="#contact" class="btn btn-small">Start Fundraising</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BLOG PAGE ===== -->
+    <section id="blog" class="page" aria-label="Blog and news">
+        <div class="page-header">
+            <h1>Blog & News</h1>
+            <p>Stories, insights, and updates from our work</p>
+        </div>
+
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card fade-in-up">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #2d8659 0%, #1e5a3f 100%);">
+                        <span class="blog-emoji" aria-hidden="true">📚</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time class="blog-date" datetime="2024-03-15">March 15, 2024</time>
+                            <span class="blog-category">Education</span>
+                        </div>
+                        <h3>Transforming Lives Through Education: A Success Story</h3>
+                        <p>Meet Kofi, a young man from a rural community who, through our education program, completed his secondary education and is now training to become an engineer. His story is one of many that inspire us daily.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card fade-in-up">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #4caf50 0%, #2d8659 100%);">
+                        <span class="blog-emoji" aria-hidden="true">🌳</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time class="blog-date" datetime="2024-03-10">March 10, 2024</time>
+                            <span class="blog-category">Environment</span>
+                        </div>
+                        <h3>Planting Hope: Our Reforestation Initiative Reaches 100,000 Trees</h3>
+                        <p>A milestone achievement! Our community-led reforestation project has planted over 100,000 trees, sequestering carbon and creating green jobs for local communities.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card fade-in-up">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);">
+                        <span class="blog-emoji" aria-hidden="true">👩‍⚕️</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time class="blog-date" datetime="2024-03-05">March 5, 2024</time>
+                            <span class="blog-category">Health</span>
+                        </div>
+                        <h3>Bringing Healthcare to Remote Communities</h3>
+                        <p>Our mobile health clinics have reached 20,000 individuals in remote areas, providing essential healthcare services and health education to underserved populations.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-card fade-in-up">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);">
+                        <span class="blog-emoji" aria-hidden="true">💪</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time class="blog-date" datetime="2024-02-28">February 28, 2024</time>
+                            <span class="blog-category">Women Empowerment</span>
+                        </div>
+                        <h3>Women Leading Change: Entrepreneurship Stories</h3>
+                        <p>Discover how women in our programs have become entrepreneurs and leaders in their communities, creating employment and inspiring others.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-card fade-in-up">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);">
+                        <span class="blog-emoji" aria-hidden="true">🎓</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time class="blog-date" datetime="2024-02-20">February 20, 2024</time>
+                            <span class="blog-category">Skills Training</span>
+                        </div>
+                        <h3>Digital Skills for All: Bridging the Technology Gap</h3>
+                        <p>Our new digital literacy program is equipping young people with essential tech skills, opening doors to better employment opportunities in the digital economy.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-card fade-in-up">
+                    <div class="blog-image" style="background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);">
+                        <span class="blog-emoji" aria-hidden="true">🌍</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <time class="blog-date" datetime="2024-02-15">February 15, 2024</time>
+                            <span class="blog-category">Sustainability</span>
+                        </div>
+                        <h3>Sustainable Agriculture: Feeding Communities While Protecting the Planet</h3>
+                        <p>Learn how our sustainable agriculture initiatives are helping farmers increase yields while protecting soil health and biodiversity.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT PAGE ===== -->
+    <section id="contact" class="page" aria-label="Contact us">
+        <div class="page-header">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team</p>
+        </div>
+
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Reach Out to Us</h2>
+                    <p>Have questions or want to get involved? We'd love to hear from you. Contact us through any of the channels below or fill out the contact form.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📍</div>
+                            <div class="contact-text">
+                                <h3>Address</h3>
+                                <address>123 Development Avenue<br>Accra, Ghana</address>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📞</div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+233302123456">+233 (0) 302 123 456</a><br><a href="tel:+233501789012">+233 (0) 501 789 012</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">✉️</div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@ased.org">info@ased.org</a><br><a href="mailto:support@ased.org">support@ased.org</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">🕐</div>
+                            <div class="contact-text">
+                                <h3>Office Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="Facebook" aria-label="Visit our Facebook page">f</a>
+                            <a href="#" class="social-icon" title="Twitter" aria-label="Visit our Twitter page">𝕏</a>
+                            <a href="#" class="social-icon" title="Instagram" aria-label="Visit our Instagram page">📷</a>
+                            <a href="#" class="social-icon" title="LinkedIn" aria-label="Visit our LinkedIn page">in</a>
+                            <a href="#" class="social-icon" title="YouTube" aria-label="Visit our YouTube channel">▶</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name <span aria-label="required">*</span></label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address <span aria-label="required">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject <span aria-label="required">*</span></label>
+                            <input type="text" id="subject" name="subject" required aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span aria-label="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiry">Type of Inquiry</label>
+                            <select id="inquiry" name="inquiry">
+                                <option value="">Select an option</option>
+                                <option value="donation">Donation</option>
+                                <option value="volunteer">Volunteer</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="media">Media Inquiry</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-note">We'll get back to you within 24 hours.</p>
+                    </form>
+                    <div id="formMessage" class="form-message" role="alert" aria-live="polite"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About ASED</h3>
+                <p>Action for Social and Environmental Development is committed to empowering vulnerable communities and promoting sustainable development.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <nav aria-label="Footer navigation">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#involved">Get Involved</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Programs</h3>
+                <nav aria-label="Programs navigation">
+                    <ul>
+                        <li><a href="#programs">Education & Skills</a></li>
+                        <li><a href="#programs">Health & Wellness</a></li>
+                        <li><a href="#programs">Environmental Action</a></li>
+                        <li><a href="#programs">Women Empowerment</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:info@ased.org">info@ased.org</a></p>
+                <p>Phone: <a href="tel:+233302123456">+233 (0) 302 123 456</a></p>
+                <p>Address: 123 Development Avenue, Accra, Ghana</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Action for Social and Environmental Development. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</body>
+</html>
+Hi - Manus
