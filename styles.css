@@ -291,6 +291,8 @@ address {
 }
 
 .hero-background {
+    background: url('images/hero.png') no-repeat center center/cover;
+}
     position: absolute;
     top: 0;
     left: 0;
