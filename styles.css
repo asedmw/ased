@@ -300,7 +300,7 @@ address {
     background: url('images/hero.png') no-repeat center center/cover;
 
     z-index: -1;
-    filter: brightness(0.8); /* makes text easier to read */
+    filter: brightness(0.3); /* makes text easier to read */
 }
 
 .hero-overlay {
