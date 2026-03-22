@@ -675,11 +675,24 @@ address {
     margin-right: auto;
 }
 
-.cta-buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+.cta-buttons .btn-primary {
+    background: var(--secondary-color); /* orange */
+    color: var(--white);
+}
+
+.cta-buttons .btn-primary:hover {
+    background: var(--secondary-light);
+}
+
+.cta-buttons .btn-secondary {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+
+.cta-buttons .btn-secondary:hover {
+    background: white;
+    color: var(--primary-color);
 }
 
 /* ===== PAGE HEADER ===== */
