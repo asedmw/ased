@@ -136,6 +136,10 @@ address {
     color: var(--white);
     transform: translateY(-2px);
 }
+.hero-buttons .btn-secondary:hover {
+    background: white;
+    color: var(--primary-color);
+}
 
 .btn-secondary:active {
     transform: translateY(0);
