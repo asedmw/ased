@@ -361,6 +361,10 @@ address {
 .hero-buttons .btn {
     min-width: 180px;
 }
+.hero-buttons .btn-secondary {
+    color: white;
+    border: 2px solid white;
+}
 
 /* Scroll Indicator */
 .scroll-indicator {
