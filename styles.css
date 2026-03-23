@@ -770,7 +770,7 @@ address {
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
+    gap: 20px;
     margin-top: 2rem;
 }
 
