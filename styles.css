@@ -813,6 +813,10 @@ address {
     height: 100%;
     object-fit: cover; 
 }
+.team-avatar {
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 
 .team-member h3 {
     color: var(--text-dark);
