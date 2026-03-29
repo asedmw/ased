@@ -474,3 +474,35 @@ if (window.performance && window.performance.timing) {
 
 console.log('%cAction for Social and Environmental Development', 'font-size: 14px; color: #ffa500; font-weight: bold;');
 console.log('%cEmpowering communities for sustainable development', 'font-size: 12px; color: #666;');
+const form = document.getElementById("contactForm");
+const formMessage = document.getElementById("formMessage");
+
+form.addEventListener("submit", async function (e) {
+    e.preventDefault(); // stop redirect
+
+    const data = new FormData(form);
+
+    try {
+        const response = await fetch(form.action, {
+            method: "POST",
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+
+        if (response.ok) {
+            form.style.display = "none"; // hide form
+
+            formMessage.innerHTML = "✅ Thank you! Your message has been sent.";
+            formMessage.style.color = "green";
+        } else {
+            formMessage.innerHTML = "❌ Something went wrong. Try again.";
+            formMessage.style.color = "red";
+        }
+
+    } catch (error) {
+        formMessage.innerHTML = "❌ Network error. Please try again.";
+        formMessage.style.color = "red";
+    }
+});
