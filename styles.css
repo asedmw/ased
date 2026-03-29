@@ -1199,6 +1199,12 @@ address {
     margin-bottom: 40px;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;  /* centers content */
+    padding: 0 20px;
+}
+
 .footer-section h3 {
     color: var(--secondary-light);
     margin-bottom: 1rem;
